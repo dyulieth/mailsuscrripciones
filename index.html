@@ -1,231 +1,253 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mail1</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-    <style type="text/css">
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap');
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html;" charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+	<title>*|MC:SUBJECT|*</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap');
         *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
+			-webkit-text-size-adjust:none;
+			-ms-text-size-adjust:none;
+			max-height:1000000px;
+		}
+		table{
+			border-collapse:collapse !important;
+		}
 
-        body{
-            font-family: 'Lato', sans-serif;
+        @media only screen and (max-width: 380px){
+            .w380{
+                max-width: 380px !important;
+                width:100% !important;
+            }
+            img {
+                max-width:100% !important;
+                height: auto!important;
+            }    
+            .imagen{
+                width: 204px !important;
+            }
+            .txt-s{
+                font-size: 14px;
+            }
+            .txt-sa{
+                font-size: 20px;
+            }
+            .txt-e{
+                font-size: 12px;
+            }
+        }
+        @media only screen and (max-width: 480px){
+            .w380{
+                max-width: 480px !important;
+                width:100% !important;
+            }
+            img {
+                max-width:100% !important;
+                height: auto!important;
+            }    
            
-            
         }
-        .contenedor{
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        img{
-           display: flex;
-        }
-        .contenedor-img1{
-            position: relative;
-        }
-
-       .txt-amigo{
-            position: absolute;
-            left: 285px;
-            top: 225px;
-            width: 45%;
-            font-size: 25px;
-            color:#fff;
-            text-align: center;
-            font-style: italic;
-            word-spacing: 1px;
-        }
-
-        .contenedor-img2{
-            position: relative;
-        }
-
-        .txt-suscribete{
-            position: absolute;
-            font-size: 20px;
-            color: #f00c1b;
-            font-style: italic;
-            word-spacing: 1px;
-            font-weight: 600;
-            top:15px;
-            left: 70px;
-        }
-
-       .txt-paquete-gratis{
-            position: absolute;
-            top: 117px;
-            left: 218px;
-            width: 25%;
-            line-height: 15pt;
-            text-align: center;
-        }
-
-        .txt-gratis{
-            font-size: 30px;
-            font-style: italic;
-            font-weight: 600;
-        }
-
-        .txt-paquete{
-            font-size: 16px;
-            color: #f00c1b;
-            font-style: italic;
-            word-spacing: 1px;
-            font-weight: 200;
-        }
-       
-        .txt-anual{
-            position: absolute;
-            top: 256px;
-            left: 65px;
-            font-size: 30px;
-            color: #fff;
-            font-style: italic;
-            font-weight: 100;
-        }
-
-        .contenedor-img3{
-            position: relative;
-        }
-
-        .txt-acompaña{
-            position: absolute;
-            top: 65px;
-            left: 15px;
-            width: 50%;
-            font-size: 16px;
-            font-style: italic;
-            font-weight: 600;
-        }
-
-        .txt-acompaña span{
-            color: #f00c1b;
-            font-style: normal;
-        }
-
-        .txt-info{
-            position: absolute;
-            color: #f00c1b;
-            top: 160px;
-            left: 14px;
-            font-size: 12px;
-            font-style: italic;
+        @media only screen and (max-width: 600px){
+            .w380{
+                max-width: 600px !important;
+                width:100% !important;
+            }
+            img {
+                max-width:100% !important;
+                height: auto!important;
+            }    
             
         }
         
-        .txt-info img{
-           display: inline-block;
-           width: 12px;
-        }
 
-        .copyright{
-            font-size: 10px;
-        }
-
-        .logo img{
-            width: 100px;
-        }
-
-        .footer{
-            background-color: #b1a9a9;
-            width: 600px;
-            height: 100px;
-        }
-
-        
 
 
     </style>
+
+
     
-</head> 
-<body>
+ </head>
 
-    <table class="contenedor" align="center" width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
-       <tr class="encabezado">
-           <td>
-            <!-- Header -->
-            <table width="600" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
-                <tr>
-                    <td>
-                        <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/334c45b6-16f3-43cb-a978-55c3fc5b441b.png" alt="header" />     
-                    </td>
-                </tr>
-            </table>
-            <!-- Fin header -->
-            
-            <!-- Imagen1 -->
-            <table class="contenedor-img1" width="600" align="center" border="0" cellpadding="0" cellspacing="0" cellmargin="0">
-                <tr>
-                    <td>
-                        <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/d3bfc28a-474c-4281-83ab-46a240bc10dc.png">
-                    </td>
-                    <td class="txt-amigo">
-                        <p>¡Amigo empresario tenemos una propuesta pensada en ti! </p>
-                    </td>
-                </tr>
-            </table>
-            <!-- Fin imagen1 -->  
-            
-            <!-- Imagen2 -->
-            <table class="contenedor-img2" width="600" align="center" border="0" cellpadding="0" cellspacing="0" cellmargin="0">
-                <tr>
-                    <td>
-                        <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/8c755b87-b658-441d-9a8c-349726888834.png">
-                    </td>
-                    <td class="txt-suscribete">
-                        <p>Suscribete a La Opinión y obtén un paquete publicitario </p>
-                    </td>
-                    <td class="txt-paquete-gratis">
-                        <p class="txt-gratis">GRATIS</p>
-                        <p class="txt-paquete">paquete publicitario (digital e impreso)</p>
-                    </td>
-                    <td>
-                        <p class="txt-anual">Suscripción anual a tan solo $299.000</p>
-                    </td>
-                </tr>
-            </table>
-            <!-- Fin imagen2 -->
+  <body style="margin:0; padding:0; background: #ffffff;" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
 
-            <!-- Imagen3 -->
-            <table class="contenedor-img3" width="600" align="center" border="0" cellpadding="0" cellspacing="0" cellmargin="0">
-                <tr>
-                    <td>
-                        <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/157469ce-2b5b-4788-bcb3-0d9d94a054d2.png">
-                    </td>
-                    <td>
-                        <p class="txt-acompaña">Estés donde estés, <span>La Opinión</span> te acompaña con su versión de papel en formato digital.</p>
-                    </td>
-                    <td>
-                        <p class="txt-info">Para mas información y beneficios <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/eefdebb1-8fd4-46ad-b8d8-57229a108118.png" alt=""> 3153152005</p>
-                    </td>
-                    <td>
-                        
-                    </td>
-                </tr>
-            </table>
-            <!-- Fin imagen3 --> 
-           <table class="footer">
-                <tr>
-                    <td class="logo">
-                        <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/b1c1adf6-48c0-4ecf-899f-e5aebd9256e6.png" alt="">
-                    </td>
-                    <td>
-                        <p class="copyright">  DIARIO LA OPINIÓN - Av. 4 Nro. 16 - 12. Teléfono (+57) (7) 5829999 - Fax (+57) (7) 5831502 - Cúcuta - ColombiaCopyright © 2001 - 2015 La Opinión S.A. - Todos los Derechos ReservadosReservados todos los derechos; queda prohibida la reproducción, distribución, comunicación pública y utilización total o parcial de los contenidos de esta web, en cualquier forma o modalidad sin previa, expresa y escrita autorización.</p>
-                    </td>
-                </tr>
-            </table>       
-          
-       </tr> 
+    <table class="w380" width="600" border="0" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" align="center">
+		<tbody>
+			<tr>
+				 <!-- Header -->
+				<td align="center">
+					<a href="https://www.laopinion.com.co/" target="_blank">
+						<img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/334c45b6-16f3-43cb-a978-55c3fc5b441b.png" alt="La Opinión" width="600" height="72" style="display:block;" align="top" border="0">
+					</a>
+				</td>
+				<!-- Fin header -->
+			</tr>	
+				<!-- Seccion-1 -->
+			<tr>
+				<td align="center">
+					<a href="https://suscripciones.laopinion.com.co/" target="_blank"> 
+						<img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/0274335d-a875-4e50-8334-de71ceebdc10.png" alt="Activate y suscribete" width="600" height="401" style="display:block;" align="top" border="0">
+					</a>
+				</td>	
+			</tr>
+				<!-- Fin Seccion-1 -->
+
+				<!-- Seccion-2 -->
+			<tr>
+				<td align="center" style="background-color: #ffffff; padding-top:15px; display:block;" border="0">
+					<a href="https://suscripciones.laopinion.com.co/" target="_blank" style="color:#f00c1b; font-size: 20px; font-style: italic; font-family: 'Lato', sans-serif; text-decoration: none">
+						<strong class="txt-s">
+							Suscribete a La Opinión y obtén un paquete publicitario
+						</strong>
+						</a>
+				</td>
+			</tr>
+				<!-- Fin Seccion-2 -->
+
+				<!-- Seccion-3 -->
+			<tr >
+				<td align="center" >
+					<a href="https://suscripciones.laopinion.com.co/" target="_blank">
+						<img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/0e1005a9-2e84-455f-a61b-ed024585d9f2.png" alt="Gratis paquete publicitario" width="600" height="232" style="display:block;" align="top" border="0">
+						</a>
+				</td>
+			</tr>
+				<!-- Fin Seccion-3 -->
+				
+				<!-- Seccion-4 -->
+			<tr>
+				<td  align="center" bgcolor="#ff0000" style="padding-bottom:10px; display:block;" border="0">
+					<a href="https://suscripciones.laopinion.com.co/" target="_blank" style="color:#ffffff; font-size: 30px; font-family: 'Lato', sans-serif; text-decoration: none; font-weight: 100;">
+						<strong class="txt-sa">
+							<span style="font-weight: 100;">Suscripción anual a tan solo $299.000</span> 
+						</strong>
+						</a>
+				</td>
+			</tr>
+				<!-- Fin Seccion-4 -->
+				  
+				<!-- Seccion-5 -->
+			<tr class="w380">
+				<td align="center" class="w380">
+					<table class="w380" width="600" heignt="184" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+						<tr>
+							<td align="center">
+								<table class="w380" width="396" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-collapse: separate;">
+									<tbody>
+										<tr>
+											<td  align="left" style="padding-left: 25px;" height="142">
+												<a href="https://www.laopinion.com.co/" target="_blank" style="font-style: italic; font-family: 'Lato', sans-serif; word-spacing: 3px; text-decoration: none; color: black; font-size: 18px;">
+													<strong class="txt-e">Estés donde estés, <span style="color: #f00c1b; font-style: normal;">
+														La Opinión</span> te acompaña con
+														 su versión de papel en formato digital.</strong>
+												</a>
+											</td>
+										</tr>
+										<tr>
+											<td align="left" valign="bottom" height="46" style="padding-left: 25px;">
+												<a href="https://api.whatsapp.com/send?phone=0573153152005&text=Hola%20La%20Opinión,%20deseo%20mas%20información%20de%20suscripciones." target="_blank" style="font-style: italic; font-family: 'Lato', sans-serif; text-decoration: none; color: #f00c1b; font-size: 14px;">
+													<strong class="txt-i">
+														Para mas información y beneficios <img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/eefdebb1-8fd4-46ad-b8d8-57229a108118.png" alt="Whatsapp" width="15" height="15"> 3153152005
+													</strong>
+												</a>
+											</td>
+											
+										</tr>
+										
+									</tbody>
+								</table>
+							</td>
+							<td align="center">
+								<a href="https://suscripciones.laopinion.com.co/" target="_blank">
+									<img class="imagen" src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/4d94cda9-3a7c-430c-b6e0-787e12a5fabe.png" alt="La Opinión te acompaña" width="204" height="184" style="display:block;" align="top" border="0">
+								</a>
+							</td>
+						</tr>
+					</table>
+					
+				</td>
+				
+			</tr>
+				<!-- Fin Seccion-5 -->
+
+				<!-- Footer -->
+			<tr>
+				<td align="center" >
+					<table class="w380" width="600" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#AFAAA9">
+						<tbody>
+							<tr>
+								<td align="center">
+									<a href="https://www.laopinion.com.co/" target="_blank" style="text-decoration: none; color: black ;	">
+										<img src="https://mcusercontent.com/6e19755e139e76341a0bb29f2/images/b1c1adf6-48c0-4ecf-899f-e5aebd9256e6.png" alt="Logo La Opinión" width="150">
+										<strong style="font-size: 10px; font-family: 'Lato', sans-serif; font-style:italic;">
+											www.laopinion.com.co
+										</strong>
+
+									</a>
+									
+								</td>
+								<td align="center">
+									<table class="w380" width="450" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#AFAAA9">
+										<tbody>
+											<tr>
+												<td colspan="8" align="justify" style="padding: 10px 10px 5px 0px">
+													<strong style="color: #000000;font-family: 'Lato', sans-serif;font-size:10px; line-height:90%; font-style: italic;">
+                                                        DIARIO LA OPINIÓN - Av. 4 Nro. 16 - 12. Teléfono (+57) (7) 5829999 - Fax (+57) (7) 5831502 - Cúcuta - Colombia 
+                                                        Copyright © 2001 - *|CURRENT_YEAR|* La Opinión S.A. - Todos los derechos reservados.
+                                                    </strong> 
+												</td>
+											</tr>
+											<tr>
+												<td align="right">
+													<strong style="font-size: 12px;font-family: 'Lato', sans-serif; font-style: italic; font-weight: 600;">Siguenos</strong>
+												</td>
+												<td align="right">
+													<a href="https://www.instagram.com/opinioncucuta" target="_blank">
+														<img src="https://gallery.mailchimp.com/6e19755e139e76341a0bb29f2/images/53cccf84-136b-4c93-84b2-70d0f8cde86d.png" alt="Instagam">
+													</a>
+																								
+												</td>
+												<td align="left">
+													<a href="https://www.instagram.com/opinioncucuta" target="_blank" style="font-size: 10px;font-family: 'Lato', sans-serif; vertical-align: middle; text-decoration: none;color: #000000">
+														<strong>@opinioncucuta</strong>
+													</a>
+													
+												</td>
+												<td align="right">
+													<a href="https://www.facebook.com/laopinioncucuta" target="_blank" >
+														<img src="https://gallery.mailchimp.com/6e19755e139e76341a0bb29f2/images/50bb6ee7-77a2-4a22-a501-a2aca8ef55fe.png" alt="Facebook">
+													</a>
+												</td>
+												<td align="left">
+													<a href="https://www.facebook.com/laopinioncucuta" target="_blank" style="font-size: 10px;font-family: 'Lato', sans-serif;vertical-align: middle; text-decoration: none; color: #000000">
+														<strong >@laopinioncucuta</strong>
+													</a>
+													
+												</td>
+												<td align="right">
+													<a href="https://www.twitter.com/laopinioncucuta" target="_blank">
+														<img src="https://gallery.mailchimp.com/6e19755e139e76341a0bb29f2/images/04937364-7f5a-4631-b15d-b7a0cb922cad.png" alt="twitter">
+													</a>
+												</td>
+												<td align="left">
+													<a href="https://www.twitter.com/laopinioncucuta" target="_blank" style="font-size: 10px;font-family: 'Lato', sans-serif;vertical-align: middle;text-decoration: none; color: #000000">
+														<strong>@laopinioncucuta</strong>
+													</a>
+													
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>	
+				<!-- Fin Footer  -->
+		</tbody>
     </table>
-    
-</body>
+  </body>
 </html>
